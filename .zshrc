@@ -170,8 +170,8 @@ function cdup() {
    cd ..
    zle reset-prompt
 }
-zle -N cdup
-bindkey "\," cdup
+# zle -N cdup
+# bindkey "\," cdup
 
 # --prefix=の補完
 setopt magic_equal_subst
